@@ -28,7 +28,7 @@ scrape_configs:
     static_configs:
       - targets: ["localhost:9090"]
 
-  - job_name: "pilot"
+  - job_name: "demo"
    #honor_timestamps: true
    #scrape_interval: 10s
    #scrape_timeout: 5s
@@ -36,7 +36,7 @@ scrape_configs:
    #scheme: http
    #follow_redirects: true
     static_configs:
-      - targets: ["pilot.proteusvision.com:9990"]
+      - targets: ["123.123.123.123:9990"]
                                              
   - job_name: "server1"
    #honor_timestamps: true
@@ -46,7 +46,7 @@ scrape_configs:
    #scheme: http
    #follow_redirects: true
     static_configs:
-      - targets: ["13.234.0.196:9990"]
+      - targets: ["113.123.123.123:9990"]
                                                                                    
   - job_name: "server2"
    #honor_timestamps: true
@@ -56,4 +56,4 @@ scrape_configs:
    #scheme: http
    #follow_redirects: true
     static_configs:
-      - targets: ["65.0.114.148:9990"]
+      - targets: ["111.111.111.111:9990"]
